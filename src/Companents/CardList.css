@@ -1,0 +1,40 @@
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+  gap: 12rem;
+}
+
+.CardList .search {
+  display: flex;
+  height: 35px;
+}
+
+.CardList .search input {
+  width: 250px;
+  border-radius: 0%;
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  height: 100%;
+}
+
+.CardList .search button {
+  height: 100%;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 0;
+  background-color: rgb(47, 43, 38);
+  color: white;
+  font-weight: 700;
+}
+.CardList .search button:hover {
+  background-color: rgb(255, 133, 127);
+}
+
+@media screen and (max-width: 800px) {
+  .CardList {
+    width: 100%;
+  }
+}

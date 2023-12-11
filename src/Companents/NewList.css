@@ -1,0 +1,76 @@
+.NewList1 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.NewList1 input {
+    padding: 5px 10px;
+    /* font-size: 16px; */
+}
+
+.NewList1 .list {
+    margin: 20px 0;
+
+}
+
+.NewList1 .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NewList1 .list-item button {
+    margin: 10px 0;
+    background-color: #db4949;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    width: 50px;
+    
+
+}
+
+.NewList1 button:disabled {
+    display: none;
+}
+
+.NewList1 .buttons {
+    display: flex;
+}
+
+.NewList1 .buttons button {
+    background-color: #496DDB;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    color: white;
+}
+
+.NewList1 .buttons button:first-child {
+    margin-left: 0;
+}
+
+.NewList1 .buttons button:last-child {
+    margin-right: 0;
+}
+
+.NewList1 .buttons button .link {
+    color: white;
+    text-decoration: none;
+}
+.NewList1 .buttons button:first-child:hover {
+    background-color: rgb(82, 174, 255);
+}
+
+.NewList1 .buttons button:last-child:hover {
+    background-color: rgb(82, 174, 255);
+}
+
+.NewList1 .buttons button .link:hover {
+    background-color: rgb(82, 174, 255);
+
+}

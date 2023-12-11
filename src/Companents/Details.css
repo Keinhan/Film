@@ -1,0 +1,30 @@
+.Details {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Details h1 {
+    font-weight: 300;
+}
+
+.Details img {
+    width: 170px;
+    max-width: 100%;
+    margin: 50px 10px 30px;
+    border-radius: 25px;
+}
+
+.Details button{
+    background-color: #496DDB;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.Details button:hover{
+    color: aquamarine;
+}

@@ -1,0 +1,48 @@
+.Card {
+  display: flex;
+  padding: 10px;
+  background-color: blue;
+  width: 22rem;
+  color: white;
+  height: 15rem;
+  border: 1px solid black;
+}
+.imageWrapper {
+  width: 200px;
+  height: 200px;
+}
+.Card img {
+  width: 100%;
+  /* width: calc(50% - 10px); */
+  object-fit: scale-down;
+  justify-content: center;
+  height: 100%;
+}
+
+.Card h3 {
+  margin: 20px 0;
+}
+
+.Card button {
+  margin: 10px 0;
+  background-color: #4770ed;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  width: 150px;
+}
+.Card button:hover {
+  background-color: rgb(29, 38, 157);
+}
+
+.Card .aside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.Card .link {
+  color: white;
+  text-decoration: none;
+}
